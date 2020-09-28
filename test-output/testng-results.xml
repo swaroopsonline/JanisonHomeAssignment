@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56131" started-at="2020-09-28T12:49:01 AEST" finished-at="2020-09-28T12:49:58 AEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56131" started-at="2020-09-28T12:49:01 AEST" finished-at="2020-09-28T12:49:58 AEST">
+      <class name="testcases.TripPlanner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TripPlanner@7d70d1b1]" name="setUp" is-config="true" duration-ms="25886" started-at="2020-09-28T12:49:01 AEST" finished-at="2020-09-28T12:49:27 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tripPlanning()[pri:1, instance:testcases.TripPlanner@7d70d1b1]" name="tripPlanning" duration-ms="20828" started-at="2020-09-28T12:49:27 AEST" finished-at="2020-09-28T12:49:48 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tripPlanning -->
+        <test-method status="PASS" signature="scrollingForResults()[pri:0, instance:testcases.TripPlanner@7d70d1b1]" name="scrollingForResults" duration-ms="2356" started-at="2020-09-28T12:49:48 AEST" depends-on-methods="testcases.TripPlanner.tripPlanning" finished-at="2020-09-28T12:49:51 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingForResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TripPlanner@7d70d1b1]" name="tearDown" is-config="true" duration-ms="6915" started-at="2020-09-28T12:49:51 AEST" finished-at="2020-09-28T12:49:58 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TripPlanner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
